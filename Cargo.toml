@@ -1,0 +1,25 @@
+[package]
+name = "solana_bulk_transfer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.45", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+serde_json = "1.0"
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+solana-sdk = "1.18.2"
+solana-client = "1.18.2"
+solana-program = "1.18.2"
+solana-transaction-status = "1.18.2"
+indicatif = "0.17.8"
+chrono = "0.4"
+futures = "0.3"
+thiserror = "1.0"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+rand = "0.8"
+async-trait = "0.1"
+base64 = "0.21"
